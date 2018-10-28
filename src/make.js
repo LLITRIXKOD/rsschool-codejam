@@ -1,4 +1,4 @@
-function make(...args) {
+module.exports = function make(...args) {
   const masOfArgs = [];
   for (let i = 0; i < args.length; i += 1) {
     masOfArgs.push(args[i]);
@@ -15,8 +15,4 @@ function make(...args) {
     return total;
   }
   return total;
-}
-function sum(a, b) {
-  return a + b;
-}
-make(15)(34, 21, 666)(41)(sum);
+};
