@@ -1,0 +1,25 @@
+{
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sumOfOther.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLITRIXKOD/rsschool-codejam.git"
+  },
+  "author": "Marusich Igor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LLITRIXKOD/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/LLITRIXKOD/rsschool-codejam#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  }
+}
